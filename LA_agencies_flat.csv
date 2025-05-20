@@ -1,0 +1,233 @@
+ori,counties,is_nibrs,latitude,longitude,state_abbr,state_name,agency_name,agency_type_name,nibrs_start_date,parish
+LA0640100,WINN,True,31.923979,-92.63959,LA,Louisiana,Winnfield Police Department,City,2023-01-01,WINN
+LA0640000,WINN,True,31.941187,-92.641269,LA,Louisiana,Winn Parish Sheriff's Office,County,2019-03-01,WINN
+LA0020000,ALLEN,True,30.652744,-92.819605,LA,Louisiana,Allen Parish Sheriff's Office,County,2021-09-01,ALLEN
+LA0020100,ALLEN,False,30.652744,-92.819605,LA,Louisiana,Kinder Police Department,City,,ALLEN
+LA0020200,ALLEN,False,30.817131,-92.66221,LA,Louisiana,Oakdale Police Department,City,,ALLEN
+LA0020300,ALLEN,False,30.652744,-92.819605,LA,Louisiana,Oberlin Police Department,City,,ALLEN
+LA0090400,CADDO,True,32.577195,-93.882423,LA,Louisiana,Blanchard Police Department,City,2021-01-01,CADDO
+LA0090800,CADDO,True,32.577195,-93.882423,LA,Louisiana,Ida Police Department,City,2020-09-01,CADDO
+LA0091000,CADDO,True,32.577195,-93.882423,LA,Louisiana,Greenwood Police Department,City,2021-01-01,CADDO
+LA0090000,CADDO,True,32.51362,-93.7506,LA,Louisiana,Caddo Parish Sheriff's Office,County,2004-01-01,CADDO
+LA0220000,GRANT,True,31.597787,-92.561716,LA,Louisiana,Grant Parish Sheriff's Office,County,2021-01-01,GRANT
+LA0560000,UNION,False,32.829349,-92.37565,LA,Louisiana,Union Parish Sheriff's Office,County,,UNION
+LA0560400,UNION,True,32.901417,-92.24312,LA,Louisiana,Marion Police Department,City,2020-09-01,UNION
+LA0560100,UNION,True,32.829349,-92.37565,LA,Louisiana,Farmerville Police Department,City,2023-01-01,UNION
+LA0560200,UNION,True,32.829349,-92.37565,LA,Louisiana,Bernice Police Department,City,2005-01-01,UNION
+LA0010000,ACADIA,True,30.291497,-92.411037,LA,Louisiana,Acadia Parish Sheriff's Office,County,2006-09-01,ACADIA
+LA0010100,ACADIA,True,30.291497,-92.411037,LA,Louisiana,Crowley Police Department,City,2021-01-01,ACADIA
+LA0010300,ACADIA,True,30.405752,-92.21725,LA,Louisiana,Church Point Police Department,City,2020-04-01,ACADIA
+LA0010200,ACADIA,True,30.291497,-92.411037,LA,Louisiana,Rayne Police Department,City,2020-09-01,ACADIA
+LA0230200,IBERIA,False,29.904728,-91.66978,LA,Louisiana,Jeanerette Police Department,City,,IBERIA
+LA0230300,IBERIA,False,30.00271,-91.81355,LA,Louisiana,New Iberia Police Department,City,,IBERIA
+LA0230000,IBERIA,True,30.004484,-91.820404,LA,Louisiana,Iberia Parish Sheriff's Office,County,2011-01-01,IBERIA
+LA0430000,SABINE,False,31.560209,-93.559228,LA,Louisiana,Sabine Parish Sheriff's Office,County,,SABINE
+LA0430500,SABINE,False,31.444082,-93.45514,LA,Louisiana,Florien Police Department,City,,SABINE
+LA0430700,SABINE,True,31.560209,-93.559228,LA,Louisiana,Fisher Police Department,City,2021-01-01,SABINE
+LA0430100,SABINE,False,31.568363,-93.48213,LA,Louisiana,Many Police Department,City,,SABINE
+LA0540000,TENSAS,True,32.001489,-91.342576,LA,Louisiana,Tensas Parish Sheriff's Office,County,2009-01-01,TENSAS
+LA0580200,VERNON,False,31.11617,-93.27393,LA,Louisiana,New Llano Police Department,City,,VERNON
+LA0580000,VERNON,False,31.110563,-93.18152,LA,Louisiana,Vernon Parish Sheriff's Office,County,,VERNON
+LA0580100,VERNON,False,31.143944,-93.26386,LA,Louisiana,Leesville Police Department,City,,VERNON
+LA0580300,VERNON,False,31.110563,-93.18152,LA,Louisiana,Rosepine Police Department,City,,VERNON
+LA0080500,BOSSIER,True,32.481724,-93.76072,LA,Louisiana,"Louisiana State University: Health Sciences Center, Shreveport",University or College,2020-06-01,BOSSIER
+LA0080000,BOSSIER,True,32.696225,-93.618086,LA,Louisiana,Bossier Parish Sheriff's Office,County,2004-01-01,BOSSIER
+LA0080100,BOSSIER,True,32.696225,-93.618086,LA,Louisiana,Bossier City Police Department,City,2019-10-01,BOSSIER
+LA0080200,BOSSIER,True,,,LA,Louisiana,Benton,,2019-06-01,BOSSIER
+LA0080300,BOSSIER,True,,,LA,Louisiana,Plain Dealing,,2020-11-01,BOSSIER
+LA0080400,BOSSIER,True,32.696225,-93.618086,LA,Louisiana,Haughton Police Department,City,2022-01-01,BOSSIER
+LA0080600,BOSSIER,True,32.432076,-93.70222,LA,Louisiana,Louisiana State University: Shreveport,University or College,2020-01-01,BOSSIER
+LA0080700,BOSSIER,False,32.54364,-93.832954,LA,Louisiana,Southern University and A&M College: Shreveport,University or College,,BOSSIER
+LA0120000,CAMERON,True,29.871888,-93.165539,LA,Louisiana,Cameron Parish Sheriff's Office,County,2005-01-01,CAMERON
+LA0160000,DE SOTO,True,32.03907,-93.70989,LA,Louisiana,De Soto Parish Sheriff's Office,County,2021-01-01,DE SOTO
+LA0160100,DE SOTO,True,32.059248,-93.740797,LA,Louisiana,Mansfield Police Department,City,2020-08-01,DE SOTO
+LA0250000,JACKSON,True,32.240776,-92.715485,LA,Louisiana,Jackson Parish Sheriff's Office,County,2020-07-01,JACKSON
+LA0310200,LINCOLN,True,32.601823,-92.662303,LA,Louisiana,Ruston Police Department,City,2020-01-01,LINCOLN
+LA0310300,LINCOLN,False,32.601823,-92.662303,LA,Louisiana,Grambling Police Department,City,,LINCOLN
+LA0310600,LINCOLN,False,32.601823,-92.662303,LA,Louisiana,Grambling State University,University or College,,LINCOLN
+LA0310700,LINCOLN,True,32.601823,-92.662303,LA,Louisiana,Louisiana Tech University,University or College,2021-01-01,LINCOLN
+LA0310000,LINCOLN,True,32.52667,-92.63829,LA,Louisiana,Lincoln Parish Sheriff's Office,County,2020-07-01,LINCOLN
+LA0330000,MADISON,True,32.407642,-91.187164,LA,Louisiana,Madison Parish Sheriff's Office,County,2003-01-01,MADISON
+LA0330100,MADISON,True,32.40846,-91.1866,LA,Louisiana,Tallulah Police Department,City,2007-01-01,MADISON
+LA0360200,ORLEANS,True,29.983511,-90.106285,LA,Louisiana,Delgado Community College,University or College,2021-01-01,ORLEANS
+LA0360300,ORLEANS,True,30.030651,-90.06331,LA,Louisiana,University of New Orleans,University or College,2021-01-01,ORLEANS
+LANPD0000,ORLEANS,False,29.960224,-90.09213,LA,Louisiana,New Orleans Police Department,City,,ORLEANS
+LA0361200,ORLEANS,True,30.024525,-90.04403,LA,Louisiana,Southern University and A&M College: New Orleans,University or College,2021-01-01,ORLEANS
+LA0361700,ORLEANS,False,29.957678,-90.08284,LA,Louisiana,"Louisiana State University: Health Sciences Center, New Orleans",University or College,,ORLEANS
+LA036209E,ORLEANS,True,29.93539,-90.12396,LA,Louisiana,Tulane University,,2022-01-01,ORLEANS
+LA036219E,ORLEANS,False,,,LA,Louisiana,Dillard University,University or College,,ORLEANS
+LA0400200,RAPIDES,False,31.324041,-92.43274,LA,Louisiana,Pineville Police Department,City,,RAPIDES
+LA0400700,RAPIDES,False,31.193204,-92.535953,LA,Louisiana,Woodworth Police Department,City,,RAPIDES
+LA0401000,RAPIDES,False,31.406595,-92.40997,LA,Louisiana,Ball Police Department,City,,RAPIDES
+LA0400000,RAPIDES,True,31.193204,-92.535953,LA,Louisiana,Rapides Parish Sheriff's Office,County,2007-01-01,RAPIDES
+LA0400100,RAPIDES,True,31.193204,-92.535953,LA,Louisiana,Alexandria Police Department,City,2021-01-01,RAPIDES
+LA0510300,ST MARY,True,29.629349,-91.463804,LA,Louisiana,Morgan City Police Department,City,2021-01-01,ST MARY
+LA0510000,ST MARY,True,29.629349,-91.463804,LA,Louisiana,St. Mary Parish Sheriff's Office,County,2021-01-01,ST MARY
+LA0510100,ST MARY,True,29.629349,-91.463804,LA,Louisiana,Berwick Police Department,City,2021-03-01,ST MARY
+LA0510200,ST MARY,False,29.629349,-91.463804,LA,Louisiana,Franklin Police Department,City,,ST MARY
+LA0510400,ST MARY,True,29.629349,-91.463804,LA,Louisiana,Patterson Police Department,City,2021-01-01,ST MARY
+LA0510500,ST MARY,False,29.629349,-91.463804,LA,Louisiana,Baldwin Police Department,City,,ST MARY
+LA0600700,WEBSTER,True,32.732152,-93.339825,LA,Louisiana,Sibley Police Department,City,2020-09-01,WEBSTER
+LA0600800,WEBSTER,True,32.59326,-93.33438,LA,Louisiana,Dixie Inn Police Department,City,2020-01-01,WEBSTER
+LA0600900,WEBSTER,True,,,LA,Louisiana,Heflin,,2020-01-01,WEBSTER
+LA0600100,WEBSTER,True,32.732152,-93.339825,LA,Louisiana,Minden Police Department,City,2024-01-01,WEBSTER
+LA0600200,WEBSTER,True,33.00477,-93.46104,LA,Louisiana,Springhill Police Department,City,2020-08-01,WEBSTER
+LA0600400,WEBSTER,False,32.732152,-93.339825,LA,Louisiana,Cullen Police Department,City,,WEBSTER
+LA0600000,WEBSTER,True,32.613876,-93.28846,LA,Louisiana,Webster Parish Sheriff's Office,County,2021-01-01,WEBSTER
+LA0110000,CALDWELL,True,32.101219,-92.114231,LA,Louisiana,Caldwell Parish Sheriff's Office,County,2020-08-01,CALDWELL
+LA0210000,FRANKLIN,True,32.138278,-91.672101,LA,Louisiana,Franklin Parish Sheriff's Office,County,2021-01-01,FRANKLIN
+LA0300100,LA SALLE,False,31.680083,-92.161596,LA,Louisiana,Jena Police Department,City,,LA SALLE
+LA0300200,LA SALLE,False,31.680083,-92.161596,LA,Louisiana,Olla Police Department,City,,LA SALLE
+LA0300000,LA SALLE,True,31.680083,-92.161596,LA,Louisiana,La Salle Parish Sheriff's Office,County,2021-01-01,LA SALLE
+LA0370200,OUACHITA,True,32.520428,-92.14767,LA,Louisiana,West Monroe Police Department,City,2014-01-01,OUACHITA
+LA0370300,OUACHITA,True,32.477664,-92.154848,LA,Louisiana,Sterlington Police Department,City,2006-01-01,OUACHITA
+LA0370400,OUACHITA,True,32.52823,-92.07567,LA,Louisiana,University of Louisiana: Monroe,University or College,2021-01-01,OUACHITA
+LA0370900,OUACHITA,True,32.477664,-92.154848,LA,Louisiana,Tensas Basin Levee District,Other State Agency,2019-12-01,OUACHITA
+LA0370000,OUACHITA,True,32.477664,-92.154848,LA,Louisiana,Ouachita Parish Sheriff's Office,County,2018-02-01,OUACHITA
+LA0370100,OUACHITA,True,32.477664,-92.154848,LA,Louisiana,Monroe Police Department,City,2017-06-01,OUACHITA
+LA0420000,RICHLAND,True,32.413158,-91.748353,LA,Louisiana,Richland Parish Sheriff's Office,County,2020-02-01,RICHLAND
+LA0420200,RICHLAND,True,32.413158,-91.748353,LA,Louisiana,Rayville Police Department,City,2021-01-01,RICHLAND
+LA0470000,ST JAMES,True,30.02482,-90.793956,LA,Louisiana,St. James Parish Sheriff's Office,County,2008-01-01,ST JAMES
+LA0470100,ST JAMES,True,30.02482,-90.793956,LA,Louisiana,Lutcher Police Department,City,2020-08-01,ST JAMES
+LA0470200,ST JAMES,True,30.02482,-90.793956,LA,Louisiana,Gramercy Police Department,City,2017-01-01,ST JAMES
+LA0030200,ASCENSION,True,30.232754,-90.91382,LA,Louisiana,Gonzales Police Department,City,2011-01-01,ASCENSION
+LA0030000,ASCENSION,True,30.202946,-90.910023,LA,Louisiana,Ascension Parish Sheriff's Office,County,2003-01-01,ASCENSION
+LA0050100,AVOYELLES,False,31.085094,-91.993797,LA,Louisiana,Bunkie Police Department,City,,AVOYELLES
+LA0050200,AVOYELLES,True,31.12787,-92.065575,LA,Louisiana,Marksville Police Department,City,2020-12-01,AVOYELLES
+LA0050300,AVOYELLES,False,31.085094,-91.993797,LA,Louisiana,Simmesport Police Department,City,,AVOYELLES
+LA0050400,AVOYELLES,False,30.985495,-92.05285,LA,Louisiana,Cottonport Police Department,City,,AVOYELLES
+LA0050600,AVOYELLES,False,31.085094,-91.993797,LA,Louisiana,Moreauville Police Department,City,,AVOYELLES
+LA0050000,AVOYELLES,False,31.115696,-92.06695,LA,Louisiana,Avoyelles Parish Sheriff's Office,County,,AVOYELLES
+LA0050800,AVOYELLES,True,,,LA,Louisiana,Evergreen,,2020-03-01,AVOYELLES
+LA0070000,BIENVILLE,True,32.340952,-93.041151,LA,Louisiana,Bienville Parish Sheriff's Office,County,2020-01-01,BIENVILLE
+LA0100100,CALCASIEU,True,30.44986,-93.43519,LA,Louisiana,De Quincy Police Department,City,2007-01-01,CALCASIEU
+LA0100200,CALCASIEU,True,30.229559,-93.358015,LA,Louisiana,Lake Charles Police Department,City,2019-10-01,CALCASIEU
+LA0100300,CALCASIEU,True,30.229559,-93.358015,LA,Louisiana,Sulphur Police Department,City,2019-04-01,CALCASIEU
+LA0100400,CALCASIEU,True,30.19263,-93.58134,LA,Louisiana,Vinton Police Department,City,2020-07-01,CALCASIEU
+LA0100500,CALCASIEU,True,30.229559,-93.358015,LA,Louisiana,Westlake Police Department,City,2020-09-01,CALCASIEU
+LA0100700,CALCASIEU,True,30.229559,-93.358015,LA,Louisiana,Iowa Police Department,City,2020-07-01,CALCASIEU
+LA0100800,CALCASIEU,True,30.229559,-93.358015,LA,Louisiana,McNeese State University,University or College,2020-04-01,CALCASIEU
+LA0100000,CALCASIEU,True,30.227667,-93.14113,LA,Louisiana,Calcasieu Parish Sheriff's Office,County,2009-01-01,CALCASIEU
+LA0130000,CATAHOULA,True,31.666517,-91.846703,LA,Louisiana,Catahoula Parish Sheriff's Office,County,2021-01-01,CATAHOULA
+LA0140100,CLAIBORNE,True,32.827043,-92.989767,LA,Louisiana,Haynesville Police Department,City,2022-01-01,CLAIBORNE
+LA0140000,CLAIBORNE,True,32.827043,-92.989767,LA,Louisiana,Claiborne Parish Sheriff's Office,County,2009-04-01,CLAIBORNE
+LA0150100,CONCORDIA,True,31.642176,-91.55464,LA,Louisiana,Ferriday Police Department,City,2021-12-01,CONCORDIA
+LA0150200,CONCORDIA,True,31.469805,-91.626314,LA,Louisiana,Vidalia Police Department,City,2021-01-01,CONCORDIA
+LA0150000,CONCORDIA,True,31.469805,-91.626314,LA,Louisiana,Concordia Parish Sheriff's Office,County,2021-01-01,CONCORDIA
+LA0240200,IBERVILLE,True,30.288394,-91.36315,LA,Louisiana,Plaquemine Police Department,City,2004-04-01,IBERVILLE
+LA0240300,IBERVILLE,False,30.288394,-91.36315,LA,Louisiana,White Castle Police Department,City,,IBERVILLE
+LA0240500,IBERVILLE,False,30.288394,-91.36315,LA,Louisiana,Rosedale Police Department,City,,IBERVILLE
+LA0240600,IBERVILLE,True,30.288394,-91.36315,LA,Louisiana,St. Gabriel Police Department,City,2021-01-01,IBERVILLE
+LA0240000,IBERVILLE,True,30.288394,-91.36315,LA,Louisiana,Iberville Parish Sheriff's Office,County,2020-08-01,IBERVILLE
+LA0260100,JEFFERSON,True,29.677888,-90.100494,LA,Louisiana,Gretna Police Department,City,2020-01-01,JEFFERSON
+LA0260200,JEFFERSON,True,29.93871,-90.19368,LA,Louisiana,Harahan Police Department,City,2020-04-01,JEFFERSON
+LA0260000,JEFFERSON,True,29.677888,-90.100494,LA,Louisiana,Jefferson Parish Sheriff's Office,County,2020-01-01,JEFFERSON
+LA0260400,JEFFERSON,True,29.911531,-90.14372,LA,Louisiana,Westwego Police Department,City,2020-05-01,JEFFERSON
+LA0260600,JEFFERSON,True,,,LA,Louisiana,Jean Lafitte,,2021-01-01,JEFFERSON
+LA0260300,JEFFERSON,True,29.677888,-90.100494,LA,Louisiana,Kenner Police Department,City,2020-01-01,JEFFERSON
+LA0280000,LAFAYETTE,True,30.206507,-92.06417,LA,Louisiana,Lafayette Parish Sheriff's Office,County,2012-01-01,LAFAYETTE
+LA0280200,LAFAYETTE,False,30.206507,-92.06417,LA,Louisiana,Carencro Police Department,City,,LAFAYETTE
+LA0280300,LAFAYETTE,False,30.206507,-92.06417,LA,Louisiana,Lafayette Police Department,City,,LAFAYETTE
+LA0280500,LAFAYETTE,False,30.206507,-92.06417,LA,Louisiana,Youngsville Police Department,City,,LAFAYETTE
+LA0280600,LAFAYETTE,False,30.206507,-92.06417,LA,Louisiana,Scott Police Department,City,,LAFAYETTE
+LA0280700,LAFAYETTE,False,30.206507,-92.06417,LA,Louisiana,University of Louisiana: Lafayette,University or College,,LAFAYETTE
+LA0282000,LAFAYETTE,False,30.216476,-92.0526,LA,Louisiana,South Louisiana Community College,University or College,,LAFAYETTE
+LA0290100,LAFOURCHE,True,29.491992,-90.394849,LA,Louisiana,Golden Meadow Police Department,City,2021-01-01,LAFOURCHE
+LA0290500,LAFOURCHE,True,29.491992,-90.394849,LA,Louisiana,Thibodaux Police Department,City,2015-01-01,LAFOURCHE
+LA0290600,LAFOURCHE,False,29.491992,-90.394849,LA,Louisiana,Nicholls State University,University or College,,LAFOURCHE
+LA0290000,LAFOURCHE,True,29.491992,-90.394849,LA,Louisiana,Lafourche Parish Sheriff's Office,County,2015-01-01,LAFOURCHE
+LA0340000,MOREHOUSE,True,32.775772,-91.91325,LA,Louisiana,Morehouse Parish Sheriff's Office,County,2003-01-01,MOREHOUSE
+LA0340100,MOREHOUSE,True,32.777275,-91.913185,LA,Louisiana,Bastrop Police Department,City,2021-01-01,MOREHOUSE
+LA0410000,RED RIVER,False,32.014977,-93.34033,LA,Louisiana,Red River Parish Sheriff's Office,County,,RED RIVER
+LA0410100,RED RIVER,False,32.101213,-93.34905,LA,Louisiana,Coushatta Police Department,City,,RED RIVER
+LA0460200,ST HELENA,True,30.821423,-90.70935,LA,Louisiana,Montpelier Police Department,City,2021-01-01,ST HELENA
+LA0460000,ST HELENA,True,30.821423,-90.70935,LA,Louisiana,St. Helena Parish Sheriff's Office,County,2013-01-01,ST HELENA
+LA0460100,ST HELENA,True,30.821423,-90.70935,LA,Louisiana,Greensburg Police Department,City,2020-12-01,ST HELENA
+LA0490700,ST LANDRY,False,,,LA,Louisiana,Melville,,,ST LANDRY
+LA0490800,ST LANDRY,True,30.583441,-91.989274,LA,Louisiana,Krotz Springs Police Department,City,2017-08-01,ST LANDRY
+LA0490000,ST LANDRY,True,30.534416,-92.08396,LA,Louisiana,St. Landry Parish Sheriff's Office,County,2021-01-01,ST LANDRY
+LA0491300,ST LANDRY,True,30.583441,-91.989274,LA,Louisiana,Louisiana State University: Eunice,University or College,2020-02-01,ST LANDRY
+LA0490200,ST LANDRY,True,30.53644,-92.08239,LA,Louisiana,Opelousas Police Department,City,2021-01-01,ST LANDRY
+LA0490500,ST LANDRY,False,30.583441,-91.989274,LA,Louisiana,Washington Police Department,City,,ST LANDRY
+LA0490600,ST LANDRY,False,30.583441,-91.989274,LA,Louisiana,Port Barre Police Department,City,,ST LANDRY
+LA0500200,ST MARTIN,False,30.121433,-91.611481,LA,Louisiana,St. Martinville Police Department,City,,ST MARTIN
+LA0500100,ST MARTIN,False,30.121433,-91.611481,LA,Louisiana,Breaux Bridge Police Department,City,,ST MARTIN
+LA0500000,ST MARTIN,True,30.121433,-91.611481,LA,Louisiana,St. Martin Parish Sheriff's Office,County,2021-01-01,ST MARTIN
+LA0570400,VERMILION,True,29.956594,-92.0347,LA,Louisiana,Erath Police Department,City,2020-04-01,VERMILION
+LA0570200,VERMILION,False,30.00095,-92.28434,LA,Louisiana,Kaplan Police Department,City,,VERMILION
+LA0570100,VERMILION,True,29.786872,-92.29009,LA,Louisiana,Abbeville Police Department,City,2020-12-01,VERMILION
+LA0570000,VERMILION,True,29.786872,-92.29009,LA,Louisiana,Vermilion Parish Sheriff's Office,County,2021-01-01,VERMILION
+LA0040000,ASSUMPTION,False,29.899884,-91.050528,LA,Louisiana,Assumption Parish Sheriff's Office,County,,ASSUMPTION
+LA0060200,BEAUREGARD,False,30.645018,-93.340253,LA,Louisiana,Merryville Police Department,City,,BEAUREGARD
+LA0060000,BEAUREGARD,True,30.645018,-93.340253,LA,Louisiana,Beauregard Parish Sheriff's Office,County,2021-01-01,BEAUREGARD
+LA0200100,EVANGELINE,True,30.720693,-92.404086,LA,Louisiana,Basile Police Department,City,2004-01-01,EVANGELINE
+LA0200200,EVANGELINE,True,30.720693,-92.404086,LA,Louisiana,Mamou Police Department,City,2003-09-01,EVANGELINE
+LA0200300,EVANGELINE,False,30.720693,-92.404086,LA,Louisiana,Ville Platte Police Department,City,,EVANGELINE
+LA0200600,EVANGELINE,True,,,LA,Louisiana,Chataignier,,2022-02-01,EVANGELINE
+LA0200000,EVANGELINE,True,30.689276,-92.278015,LA,Louisiana,Evangeline Parish Sheriff's Office,County,2008-01-01,EVANGELINE
+LA0320100,LIVINGSTON,False,30.440419,-90.727474,LA,Louisiana,Denham Springs Police Department,City,,LIVINGSTON
+LA0320200,LIVINGSTON,True,30.440419,-90.727474,LA,Louisiana,Livingston Police Department,City,2022-01-01,LIVINGSTON
+LA0320300,LIVINGSTON,True,30.440419,-90.727474,LA,Louisiana,Walker Police Department,City,2021-01-01,LIVINGSTON
+LA0320000,LIVINGSTON,True,30.440419,-90.727474,LA,Louisiana,Livingston Parish Sheriff's Office,County,2021-01-01,LIVINGSTON
+LA0440000,ST BERNARD,True,29.91811,-89.263494,LA,Louisiana,St. Bernard Parish Sheriff's Office,County,2021-01-01,ST BERNARD
+LA0450000,ST CHARLES,True,29.905722,-90.357855,LA,Louisiana,St. Charles Parish Sheriff's Office,County,2020-01-01,ST CHARLES
+LA0520200,ST TAMMANY,True,30.274563,-89.78045,LA,Louisiana,Slidell Police Department,City,2021-01-01,ST TAMMANY
+LA0520000,ST TAMMANY,True,30.410022,-89.951962,LA,Louisiana,St. Tammany Parish Sheriff's Office,County,2019-01-01,ST TAMMANY
+LA0520100,ST TAMMANY,True,30.478825,-90.09637,LA,Louisiana,Covington Police Department,City,2022-01-01,ST TAMMANY
+LA0520300,ST TAMMANY,True,30.362373,-90.05933,LA,Louisiana,Mandeville Police Department,City,2021-01-01,ST TAMMANY
+LA0520700,ST TAMMANY,False,30.410022,-89.951962,LA,Louisiana,Folsom Police Department,City,,ST TAMMANY
+LA0520500,ST TAMMANY,True,30.410022,-89.951962,LA,Louisiana,Pearl River Police Department,City,2021-01-01,ST TAMMANY
+LA0530600,TANGIPAHOA,False,30.621581,-90.406633,LA,Louisiana,Roseland Police Department,City,,TANGIPAHOA
+LA0530800,TANGIPAHOA,True,30.621581,-90.406633,LA,Louisiana,Tickfaw Police Department,City,2015-01-01,TANGIPAHOA
+LA0530900,TANGIPAHOA,True,30.621581,-90.406633,LA,Louisiana,Southeastern Louisiana University,University or College,2003-01-01,TANGIPAHOA
+LA0530000,TANGIPAHOA,True,30.621581,-90.406633,LA,Louisiana,Tangipahoa Parish Sheriff's Office,County,2021-01-01,TANGIPAHOA
+LA0530100,TANGIPAHOA,True,30.621581,-90.406633,LA,Louisiana,Hammond Police Department,City,2021-01-01,TANGIPAHOA
+LA0530200,TANGIPAHOA,False,30.621581,-90.406633,LA,Louisiana,Kentwood Police Department,City,,TANGIPAHOA
+LA0530300,TANGIPAHOA,True,30.440071,-90.44209,LA,Louisiana,Ponchatoula Police Department,City,2021-01-01,TANGIPAHOA
+LA0530400,TANGIPAHOA,False,30.726677,-90.508224,LA,Louisiana,Amite Police Department,City,,TANGIPAHOA
+LA0530500,TANGIPAHOA,True,30.621581,-90.406633,LA,Louisiana,Independence Police Department,City,2022-07-01,TANGIPAHOA
+LA0550100,TERREBONNE,True,29.333258,-90.844212,LA,Louisiana,Houma Police Department,City,2020-11-01,TERREBONNE
+LA0550000,TERREBONNE,True,29.333258,-90.844212,LA,Louisiana,Terrebonne Parish Sheriff's Office,County,2020-09-01,TERREBONNE
+LA0590000,WASHINGTON,True,30.852144,-90.046253,LA,Louisiana,Washington Parish Sheriff's Office,County,2021-01-01,WASHINGTON
+LA0590100,WASHINGTON,True,30.7865,-89.86042,LA,Louisiana,Bogalusa Police Department,City,2007-12-01,WASHINGTON
+LA0590200,WASHINGTON,False,30.853376,-90.15753,LA,Louisiana,Franklinton Police Department,City,,WASHINGTON
+LA0380000,PLAQUEMINES,True,29.856598,-89.98403,LA,Louisiana,Plaquemines Parish Sheriff's Office,County,2004-10-01,PLAQUEMINES
+LA0180000,EAST CARROLL,True,32.803864,-91.172714,LA,Louisiana,East Carroll Parish Sheriff's Office,County,2003-01-01,EAST CARROLL
+LA0180100,EAST CARROLL,True,32.73017,-91.234141,LA,Louisiana,Lake Providence Police Department,City,2021-01-01,EAST CARROLL
+LA0350000,NATCHITOCHES,True,31.761036,-93.087906,LA,Louisiana,Natchitoches Parish Sheriff's Office,County,2023-03-01,NATCHITOCHES
+LA0351000,NATCHITOCHES,False,31.734982,-93.086106,LA,Louisiana,Northwestern State University,University or College,,NATCHITOCHES
+LA0350100,NATCHITOCHES,True,31.734982,-93.086106,LA,Louisiana,Natchitoches Police Department,City,2024-01-01,NATCHITOCHES
+LA0620000,WEST CARROLL,True,32.79248,-91.451998,LA,Louisiana,West Carroll Parish Sheriff's Office,County,2021-01-01,WEST CARROLL
+LA0620100,WEST CARROLL,True,32.79248,-91.451998,LA,Louisiana,Oak Grove Police Department,City,2023-01-01,WEST CARROLL
+LADI00600,NOT SPECIFIED,True,30.269529,-92.816221,LA,Louisiana,Coushatta Tribal,Tribal,2021-01-01,NOT SPECIFIED
+LA0510600,NOT SPECIFIED,True,29.629349,-91.463804,LA,Louisiana,Chitimacha Tribal,Tribal,2020-12-01,NOT SPECIFIED
+LADI00500,NOT SPECIFIED,True,31.085094,-91.993797,LA,Louisiana,Tunica-Biloxi Tribal,Tribal,2020-11-01,NOT SPECIFIED
+LA0390100,POINTE COUPEE,False,30.708319,-91.604621,LA,Louisiana,New Roads Police Department,City,,POINTE COUPEE
+LA0390000,POINTE COUPEE,True,30.708319,-91.604621,LA,Louisiana,Pointe Coupee Parish Sheriff's Office,County,2021-01-01,POINTE COUPEE
+LA0090100,"BOSSIER, CADDO",False,32.501125,-93.754555,LA,Louisiana,Shreveport Police Department,City,,"BOSSIER, CADDO"
+LA0190300,EAST FELICIANA,True,30.839784,-91.043434,LA,Louisiana,Wilson Police Department,City,2021-01-01,EAST FELICIANA
+LA0190500,EAST FELICIANA,True,30.839784,-91.043434,LA,Louisiana,Norwood Police Department,City,2020-10-01,EAST FELICIANA
+LA0190000,EAST FELICIANA,True,30.839784,-91.043434,LA,Louisiana,East Feliciana Parish Sheriff's Office,County,2020-03-01,EAST FELICIANA
+LA0190100,EAST FELICIANA,True,30.839784,-91.043434,LA,Louisiana,Clinton Police Department,City,2021-01-01,EAST FELICIANA
+LA0630000,WEST FELICIANA,True,30.872701,-91.421008,LA,Louisiana,West Feliciana Parish Sheriff's Office,County,2021-01-01,WEST FELICIANA
+LA0270200,JEFFERSON DAVIS,True,30.269529,-92.816221,LA,Louisiana,Jennings Police Department,City,2010-01-01,JEFFERSON DAVIS
+LA0270000,JEFFERSON DAVIS,True,30.222612,-92.65572,LA,Louisiana,Jefferson Davis Parish Sheriff's Office,County,2007-01-01,JEFFERSON DAVIS
+LA0270300,JEFFERSON DAVIS,True,30.269529,-92.816221,LA,Louisiana,Lake Arthur Police Department,City,2023-01-01,JEFFERSON DAVIS
+LA0270400,JEFFERSON DAVIS,False,30.269529,-92.816221,LA,Louisiana,Welsh Police Department,City,,JEFFERSON DAVIS
+LALSP0000,UNMAPPED COUNTY,False,30.544002,-91.093174,LA,Louisiana,State Police,State Police,,UNMAPPED COUNTY
+LA0170600,EAST BATON ROUGE,False,30.544002,-91.093174,LA,Louisiana,Southern University and A&M College: Baton Rouge,University or College,,EAST BATON ROUGE
+LA0170000,EAST BATON ROUGE,True,30.446917,-91.18758,LA,Louisiana,East Baton Rouge Parish Sheriff's Office,County,2021-01-01,EAST BATON ROUGE
+LA0170100,EAST BATON ROUGE,True,30.589071,-91.165436,LA,Louisiana,Baker Police Department,City,2003-01-01,EAST BATON ROUGE
+LA0170200,EAST BATON ROUGE,True,30.544002,-91.093174,LA,Louisiana,Baton Rouge Police Department,City,2021-01-01,EAST BATON ROUGE
+LA0170300,EAST BATON ROUGE,True,30.544002,-91.093174,LA,Louisiana,Zachary Police Department,City,2021-01-01,EAST BATON ROUGE
+LA0170400,EAST BATON ROUGE,True,30.544002,-91.093174,LA,Louisiana,Louisiana State University: Baton Rouge,University or College,2021-01-01,EAST BATON ROUGE
+LA0171100,EAST BATON ROUGE,False,30.544002,-91.093174,LA,Louisiana,Department of Public Safety State Capitol Detail,Other State Agency,,EAST BATON ROUGE
+LA0610200,WEST BATON ROUGE,True,30.464052,-91.309808,LA,Louisiana,Brusly Police Department,City,2021-01-01,WEST BATON ROUGE
+LA0610000,WEST BATON ROUGE,True,30.464052,-91.309808,LA,Louisiana,West Baton Rouge Parish Sheriff's Office,County,2018-08-01,WEST BATON ROUGE
+LA0610300,WEST BATON ROUGE,True,30.464052,-91.309808,LA,Louisiana,Addis Police Department,City,2021-01-01,WEST BATON ROUGE
+LA0610100,WEST BATON ROUGE,True,30.464052,-91.309808,LA,Louisiana,Port Allen Police Department,City,2007-01-01,WEST BATON ROUGE
+LA0490100,"ACADIA, ST LANDRY",False,30.492622,-92.41631,LA,Louisiana,Eunice Police Department,City,,"ACADIA, ST LANDRY"
+LA0060100,"BEAUREGARD, VERNON",True,30.845575,-93.28573,LA,Louisiana,De Ridder Police Department,City,2021-01-01,"BEAUREGARD, VERNON"
+LA0480000,ST JOHN THE BAPTIST,True,30.147307,-90.485674,LA,Louisiana,St. John the Baptist Parish Sheriff's Office,County,2015-01-01,ST JOHN THE BAPTIST
+LA0280100,"LAFAYETTE, ST MARTIN",True,30.147108,-91.96057,LA,Louisiana,Broussard Police Department,City,2021-01-01,"LAFAYETTE, ST MARTIN"
+LA0490300,"ST LANDRY, ST MARTIN",True,30.583441,-91.989274,LA,Louisiana,Arnaudville Police Department,City,2020-08-01,"ST LANDRY, ST MARTIN"
