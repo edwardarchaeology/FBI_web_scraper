@@ -2,35 +2,44 @@ import requests
 import json
 import pandas as pd
 
-# API key from FBI API public testing account
+# FBI Crime Data API key (public testing account)
 API_KEY = "iiHnOKfno2Mgkt5AynpvPpUQTEyxE77jo1RU8PIv"
+STATE = "LA"
 
-url = f"https://api.usa.gov/crime/fbi/cde/agency/byStateAbbr/LA?API_KEY={API_KEY}"
+# API endpoint to retrieve law enforcement agencies in Louisiana (by state abbreviation)
+url = f"https://api.usa.gov/crime/fbi/cde/agency/byStateAbbr/{STATE}?API_KEY={API_KEY}"
 
-# Make the request
+
+# Make a GET request to the FBI API
 response = requests.get(url)
 
-# Check for success
+# If the request is successful (status code 200), process the response
 if response.status_code == 200:
+    # Parse JSON response into a Python dictionary
     data = response.json()
+
+    # Save raw JSON response to file
     with open("LA_districts.json", "w") as f:
         json.dump(data, f, indent=2)
     print("Saved response to LA_districts.json")
-    
+
+    # Flatten the nested JSON into a list of agency records with parish info
     flat_data = []
     for parish, agencies in data.items():
         for agency in agencies:
-            agency["parish"] = parish  # add the parish name as a column
+            agency["parish"] = parish  # Add parish name as a new field
             flat_data.append(agency)
 
-    # Convert to DataFrame
+    # Convert the flattened data into a Pandas DataFrame
     df = pd.DataFrame(flat_data)
 
-    # Optional: convert nibrs_start_date to datetime
+    # Convert 'nibrs_start_date' strings to datetime objects (if applicable)
     df["nibrs_start_date"] = pd.to_datetime(df["nibrs_start_date"], errors="coerce")
+
+    # Export the cleaned, flat data to a CSV file
     df.to_csv("LA_agencies_flat.csv", index=False)
     print("Saved flat form of response to LA_agencies_flat.csv")
-    
 
 else:
+    # Print error message if the API request fails
     print(f"Request failed: {response.status_code} - {response.text}")
