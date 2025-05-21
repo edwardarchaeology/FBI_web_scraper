@@ -8,7 +8,7 @@ import fbi_api_calls  # Ensures API calls are available if needed before flatten
 # -----------------------------------
 
 # Load the JSON output from previous FBI API requests
-with open("../data/raw/crime_results.json", "r") as f:
+with open("./data/raw/crime_results.json", "r") as f:
     data = json.load(f)
 
 rows = []
@@ -70,4 +70,4 @@ df["date"] = pd.to_datetime(df["date"], format="%m-%Y", errors="coerce")
 print(df.head())
 
 # Export to CSV
-df.to_csv("../data/flat/flattened_crime_data.csv", index=False)
+df.to_csv("./data/flat/flattened_crime_data.csv", index=False)
