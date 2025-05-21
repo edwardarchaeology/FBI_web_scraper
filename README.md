@@ -8,11 +8,7 @@ This repository contains a set of Python scripts for extracting, flattening, and
 FBI_WEB_SCRAPER/
 ├── data/
 │   ├── raw/                # Raw JSON API responses
-│   │   ├── LA_districts.json
-│   │   └── crime_results.json
 │   └── flat/               # Flattened and cleaned CSV files
-│       ├── LA_agencies_flat.csv
-│       └── flattened_crime_data.csv
 ├── scripts/
 │   ├── fbi_api_calls.py        # Asynchronous API requests for arrest data
 │   ├── get_state_districts.py  # Downloads law enforcement agencies by state
