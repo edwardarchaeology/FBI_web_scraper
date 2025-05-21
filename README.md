@@ -2,6 +2,29 @@
 
 This repository contains a set of Python scripts for extracting, flattening, and exporting arrest data from the FBI Crime Data Explorer (CDE) API for law enforcement agencies in a given state.
 
+## 🗂 Folder Structure
+
+```
+FBI_WEB_SCRAPER/
+├── data/
+│   ├── raw/                # Raw JSON API responses
+│   │   ├── LA_districts.json
+│   │   └── crime_results.json
+│   └── flat/               # Flattened and cleaned CSV files
+│       ├── LA_agencies_flat.csv
+│       └── flattened_crime_data.csv
+├── scripts/
+│   ├── fbi_api_calls.py        # Asynchronous API requests for arrest data
+│   ├── get_state_districts.py  # Downloads law enforcement agencies by state
+│   ├── wrangle_data.py         # Flattens and merges data into one CSV
+│   └── __init__.py             # Marks this as a Python module
+├── .gitignore
+├── README.md
+└── __pycache__/                # Compiled Python cache (auto-generated)
+```
+
+---
+
 ## 📦 Project Structure
 
 - `get_state_districts.py`:  
@@ -52,15 +75,25 @@ pip install -r requirements.txt
 - `requests`
 - `nest_asyncio` (for running in Jupyter)
 
-### 3. Run the scripts in order
+### 3. Set your target state abbreviation in `get_state_districts.py`:
+
+```python
+STATE = "LA"  # Change to "TX", "CA", etc. as needed
+```
+
+### 4. Run the data wrangling script, it calls the others in order.
+
+```bash
+python wrangle_data.py
+```
+
+> Note: `fbi_api_calls.py` uses asynchronous batch requests to avoid rate limits. Semaphore is currently set to 15. Also, if you want to run the scripts individually comment out the script imports and the order is:
 
 ```bash
 python get_state_districts.py
 python fbi_api_calls.py
-python flatten_results.py
+python wrangle_data.py
 ```
-
-> Note: `fbi_api_calls.py` uses asynchronous batch requests to avoid rate limits. Semaphore is currently set to 15.
 
 ## 🧠 Notes
 

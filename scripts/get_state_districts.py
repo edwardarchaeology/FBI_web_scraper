@@ -19,7 +19,7 @@ if response.status_code == 200:
     data = response.json()
 
     # Save raw JSON response to file
-    with open(f"../data/raw/{STATE}_districts.json", "w") as f:
+    with open(f"./data/raw/{STATE}_districts.json", "w") as f:
         json.dump(data, f, indent=2)
     print(f"Saved response to {STATE}_districts.json")
 
@@ -37,7 +37,7 @@ if response.status_code == 200:
     df["nibrs_start_date"] = pd.to_datetime(df["nibrs_start_date"], errors="coerce")
 
     # Export the cleaned, flat data to a CSV file
-    df.to_csv(f"../data/flat/{STATE}_agencies_flat.csv", index=False)
+    df.to_csv(f"./data/flat/{STATE}_agencies_flat.csv", index=False)
     print(f"Saved flat form of response to {STATE}_agencies_flat.csv")
 
 else:

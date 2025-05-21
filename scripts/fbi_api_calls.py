@@ -73,7 +73,7 @@ async def fetch_crime_data(session, ori, crime_code, from_date, to_date):
 
 async def main():
     # Load the local agency file (downloaded previously)
-    with open("LA_districts.json", "r") as f:
+    with open("./data/raw/LA_districts.json", "r") as f:
         data = json.load(f)
 
     tasks = []
@@ -94,7 +94,7 @@ async def main():
     clean_results = [r for r in results if r is not None]
 
     # Save the combined results to a JSON file
-    with open("crime_results.json", "w") as f:
+    with open("./data/raw/crime_results.json", "w") as f:
         json.dump(clean_results, f, indent=2)
 
     print(f"Fetched {len(clean_results)} valid results")
