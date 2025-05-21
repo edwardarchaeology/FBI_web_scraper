@@ -21,7 +21,7 @@ if response.status_code == 200:
     # Save raw JSON response to file
     with open("LA_districts.json", "w") as f:
         json.dump(data, f, indent=2)
-    print("Saved response to LA_districts.json")
+    print(f"Saved response to {STATE}_districts.json")
 
     # Flatten the nested JSON into a list of agency records with parish info
     flat_data = []
@@ -37,7 +37,7 @@ if response.status_code == 200:
     df["nibrs_start_date"] = pd.to_datetime(df["nibrs_start_date"], errors="coerce")
 
     # Export the cleaned, flat data to a CSV file
-    df.to_csv("LA_agencies_flat.csv", index=False)
+    df.to_csv(f"{STATE}_agencies_flat.csv", index=False)
     print("Saved flat form of response to LA_agencies_flat.csv")
 
 else:

@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 import json
 
-import get_LA_districts  # Ensure the LA_districts.json file is downloaded
+import get_state_districts  # Ensure the LA_districts.json file is downloaded
 
 # -----------------------------------
 # CONFIGURATION

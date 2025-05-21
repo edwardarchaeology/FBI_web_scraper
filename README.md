@@ -1,16 +1,18 @@
-# Louisiana FBI Crime Data Extractor
+# State FBI Crime Data Extractor
 
-This repository contains a set of Python scripts for extracting, flattening, and exporting arrest data from the FBI Crime Data Explorer (CDE) API for law enforcement agencies in Louisiana.
+This repository contains a set of Python scripts for extracting, flattening, and exporting arrest data from the FBI Crime Data Explorer (CDE) API for law enforcement agencies in a given state.
 
 ## 📦 Project Structure
 
-- `get_LA_districts.py`:  
+- `get_state_districts.py`:  
   Fetches a list of Louisiana law enforcement agencies and their metadata from the FBI API. Outputs:
-  - `LA_districts.json` (raw API response)
-  - `LA_agencies_flat.csv` (flattened metadata)
+
+  - `{STATE}_districts.json` (raw API response)
+  - `{STATE}_agencies_flat.csv` (flattened metadata)
 
 - `fbi_api_calls.py`:  
   Asynchronously requests monthly arrest data for selected Uniform Crime Reporting (UCR) crime codes using the FBI API. Outputs:
+
   - `crime_results.json` (nested data per agency/crime/date chunk)
 
 - `flatten_results.py`:  
@@ -19,13 +21,13 @@ This repository contains a set of Python scripts for extracting, flattening, and
   - Actual arrest counts (where available)
   - Population and participation stats
   - Coverage percentages  
-  Output: `flattened_crime_data.csv`
+    Output: `flattened_crime_data.csv`
 
 ## 📊 Example Fields in Flattened Output
 
-| ori       | crime_code | source                      | date     | rate | actual | population | coverage_pct |
-|-----------|------------|-----------------------------|----------|------|--------|------------|----------------|
-| LA0640100 | 11         | Winnfield Police Department | 2000-01  | 0.78 | 0      | 5749       | 92.57          |
+| ori       | crime_code | source                      | date    | rate | actual | population | coverage_pct |
+| --------- | ---------- | --------------------------- | ------- | ---- | ------ | ---------- | ------------ |
+| LA0640100 | 11         | Winnfield Police Department | 2000-01 | 0.78 | 0      | 5749       | 92.57        |
 
 ## 🚀 Getting Started
 
@@ -43,6 +45,7 @@ pip install -r requirements.txt
 ```
 
 **Required packages:**
+
 - `aiohttp`
 - `asyncio`
 - `pandas`
@@ -52,28 +55,28 @@ pip install -r requirements.txt
 ### 3. Run the scripts in order
 
 ```bash
-python get_LA_districts.py
+python get_state_districts.py
 python fbi_api_calls.py
 python flatten_results.py
 ```
 
-> Note: `fbi_api_calls.py` uses asynchronous batch requests to avoid rate limits.
+> Note: `fbi_api_calls.py` uses asynchronous batch requests to avoid rate limits. Semaphore is currently set to 15.
 
 ## 🧠 Notes
 
 - Uses the [FBI Crime Data Explorer API](https://crime-data-explorer.fr.cloud.gov/api)
-- Currently limited to crime codes `11` (homicide), `30` (robbery), and `60` (assault)
+- Currently limited to crime codes `11` (homicide), `30` (robbery), and `60` (burglary)
 - Time ranges split into chunks for efficient API querying
 - Designed for reproducibility and ease of adaptation to other states or codes
 
 ## 📁 Output Files
 
-| File                    | Description                              |
-|-------------------------|------------------------------------------|
-| `LA_districts.json`     | Raw list of LA agencies by parish        |
-| `LA_agencies_flat.csv` | Flat metadata with one row per agency    |
-| `crime_results.json`    | Raw nested arrest data from FBI          |
-| `flattened_crime_data.csv` | Cleaned, analysis-ready data           |
+| File                        | Description                           |
+| --------------------------- | ------------------------------------- |
+| `{STATE}_districts.json`    | Raw list of LA agencies by parish     |
+| `{STATE}_agencies_flat.csv` | Flat metadata with one row per agency |
+| `crime_results.json`        | Raw nested arrest data from FBI       |
+| `flattened_crime_data.csv`  | Cleaned, analysis-ready data          |
 
 ## 📜 License
 
