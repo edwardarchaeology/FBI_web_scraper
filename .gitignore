@@ -6,4 +6,5 @@ _pycache__/
 *.env
 *.log
 .ipynb_checkpoints
-data/
+*.csv
+*.json
